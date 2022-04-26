@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Your name:</label>
+            <input id="name" type="text" name="name"/>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" type="text" name="email"/>
+        </div>
+        <div>
+            <label for="message">Your message: </label>
+            <textarea id="message" name="message" placeholder="What's your message"></textarea>
+        </div>
+        <div>
+            <h2>What do you like to drink?</h2>
+            <div>
+                <input id="water" type="radio" name="water"/>
+                <label for="water">Water</label>
+            </div>
+            <div>
+                <input id="other-drink" type="radio" name="other-drink"/>
+                <label for="other-drink">Other</label>
+            </div>
+        </div>
+        <div>
+            <h2>What do you like to add to your coffee?</h2>
+            <div>
+                <input id="milk" type="checkbox" name="milk"/>
+                <label for="milk">Milk</label>
+            </div>
+            <div>
+                <input id="sugar" type="checkbox" name="sugar"/>
+                <label for="sugar">Sugar</label>
+            </div>
+            <div>
+                <input id="cream" type="checkbox" name="cream"/>
+                <label for="cream">Cream</label>
+            </div>
+            <div>
+                <input id="other-coffee" type="checkbox" name="other-coffee"/>
+                <label for="other-coffee">Other:</label>
+                <div>
+                    <input id="other-coffee-add" type="text" name="other-coffee-add"/>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>How's your day going?</h2>
+            <div>
+                <label for="mood">It's going</label>
+                <select name="mood" id="mood" size="1">
+                    <option value="okay">okay</option>
+                    <option value="great">great!</option>
+                    <option value="alright">meh</option>
+                </select>
+            </div>
+        </div>
+        <p></p>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
